@@ -1,0 +1,15 @@
+{%  extends 'base.html'  %}
+
+{%  block content  %}
+
+<h1>Login</h1>
+<h1>Login2</h1>
+<form method="post">
+    <p>{{b.password.label}}<br>{{b.password(size=30)  }}</p>
+    <p>{{b.name.label}}<br>{{b.name(size=30)  }}</p>
+    <p>{{b.remember.label}}<br>{{b.remember(size=30)  }}</p>
+    <p>{{b.submit.label}}<br>{{b.submit(size=30)  }}</p>
+</form>
+
+
+{%endblock%}
